@@ -27,7 +27,7 @@ const equiposData = [
 "nombre": "Real Madrid",
 "plantilla":[
 {"id": 1,"nombre":"Eden Hazard","Altura":"1.75","Peso":"74Kg"},
-{"id": 2,"nombre":"Gonzalo García","Altura":"1.82","Peso":"74Kg"},
+{"id": 2,"nombre":"Tony Kroos","Altura":"1.82","Peso":"74Kg"},
 {"id": 3,"nombre":"Karim Benzema","Altura":"1.85","Peso":"81Kg"}
 ]},
 {"id": 2,
@@ -36,8 +36,15 @@ const equiposData = [
 {"id": 1,"nombre":"Marc-André ter Stegen ","Altura":"1.75","Peso":"74Kg"},
 {"id": 2,"nombre":"Iñigo Martinez","Altura":"1.82","Peso":"74Kg"},
 {"id": 3,"nombre":"Gavi","Altura":"1.85","Peso":"81Kg"}
+]},
+{"id": 2,
+"nombre": "Manchester City",
+"plantilla":[
+{"id": 1,"nombre":"Ederson Moraes ","Altura":"1.75","Peso":"74Kg"},
+{"id": 2,"nombre":"Julian Alvarez","Altura":"1.82","Peso":"74Kg"},
+{"id": 3,"nombre":"Phil Phonden","Altura":"1.85","Peso":"81Kg"}
 ]}
-// ... agregar otros equipos
+
 ];
 return (
 <main className={styles.main}>
